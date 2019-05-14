@@ -1,0 +1,37 @@
+{
+  "name": "ang2-tag-cloud",
+  "version": "0.0.1",
+  "description": "Simple and clean library for displaying tag cloud",
+  "author": {
+    "name": "Vishnu R",
+    "email": "vishnur66@gmail.com"
+ },
+ "keywords": [
+  "angular",
+  "d3",
+  "word-cloud",
+  "cloud",
+  "cloud-tags",
+  "tag-cloud",
+  "angular-tag-cloud",
+  "tags"
+],
+"license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/ang2-tag-cloud.umd.js",
+  "module": "fesm5/ang2-tag-cloud.js",
+  "es2015": "fesm2015/ang2-tag-cloud.js",
+  "esm5": "esm5/ang2-tag-cloud.js",
+  "esm2015": "esm2015/ang2-tag-cloud.js",
+  "fesm5": "fesm5/ang2-tag-cloud.js",
+  "fesm2015": "fesm2015/ang2-tag-cloud.js",
+  "typings": "ang2-tag-cloud.d.ts",
+  "metadata": "ang2-tag-cloud.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
