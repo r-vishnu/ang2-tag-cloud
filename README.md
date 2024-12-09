@@ -20,7 +20,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { Ang2TagCloudModule } from 'ang2-tag-cloud';
+import { Ang2TagCloudComponent } from 'ang2-tag-cloud';
 
 @NgModule({
   declarations: [
@@ -41,11 +41,8 @@ export class AppModule { }
 ## Usage it in your code
 
 ```xml
-<app-ang 
-[tags]="tagArray" 
-(onSelect)="onSelectionChane($event)" 
-maxFontSize="6" 
-minFontSize="1"></app-ang>
+<ang2-tag-cloud 
+[tag]="tag" />
 
 ```
 
@@ -56,4 +53,8 @@ tags                :  array of tags or  array of objects , required. data sourc
 onSelect            : callback function that is executed when a new tag is selected. e.g. (onSelectionChane)="onSelectionChane($event)"
 minFontSize         : number, minimum allowed font size
 maxFontSize         : number, maximum allowed font size
+animateTags         : if true show animation effect of hover
+showInCircle        : if false then show items in column and if u need in row give display:flex to class 'ang2-tag-cloud_list', by default it will be true and tags will display in circle
+circleRadius        : number, the radius of circle
+startPoint          : number, start point of circle 
 ```
