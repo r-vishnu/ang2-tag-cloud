@@ -1,13 +1,18 @@
-{
+{ 
   "name": "ang2-tag-cloud",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Simple and clean library for displaying tag cloud",
   "author": {
     "name": "Vishnu R",
     "email": "vishnur66@gmail.com"
  },
+ "bugs": {
+   "url": "https://github.com/r-vishnu/ang2-tag-cloud/issues"
+ },
+ "homepage": "https://github.com/r-vishnu/ang2-tag-cloud",
  "keywords": [
-  "angular",
+  "angular19-tag-cloud",
+  "angular-word-cloud",
   "d3",
   "word-cloud",
   "cloud",
